@@ -1,0 +1,127 @@
+:root {
+  --blueModified: #1400FF;
+  --greenModified: #009688;
+}
+
+* {
+  font-family: 'Roboto Flex', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+* html {
+  height: 100vh;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header img {
+  width: 100%;
+}
+
+p {
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+nav {
+  border: 0px 1px solid #000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav li {
+  margin: 1vw 5vh 2vw 5vh;
+}
+
+nav a {
+  color: var(--greenModified);
+  font-weight: 900;
+  font-family: ;
+}
+
+article h1 {
+  font-size: 3rem;
+  color: var(--blueModified);
+}
+
+article h2 {
+  font-size: 2rem;
+  color: var(--blueModified)
+}
+
+article h3 {
+  font-size: 1.5rem;
+  color: var(--greenModified)
+}
+
+.blocos {
+  margin-left: 2vw;
+}
+
+.blocos h1{
+  text-align: center;
+}
+
+.blocos p {
+  text-align: justify;
+}
+
+.activities {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+}
+
+.activities .modalidades {
+  margin-bottom: 5vh;
+}
+
+.activities ul {
+  background-color: white;
+  list-style: none;
+  box-shadow: 0px 5px 10px #aaaaaa;
+  padding: 10px;
+}
+
+.activities ul li {
+  text-align: center;
+  width: 250px;
+}
+
+.activities ul li img{
+  height: 250px;
+}
+
+.activities h3 {
+  color: var(--greenModified);
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+footer p {
+  color: #777777;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+
+}

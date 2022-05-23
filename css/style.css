@@ -1,8 +1,3 @@
-:root {
-  --blueModified: #1400FF;
-  --greenModified: #009688;
-}
-
 * {
   font-family: 'Roboto Flex', sans-serif;
   margin: 0;
@@ -11,12 +6,16 @@
   text-decoration: none;
 }
 
+a {
+  color: white;
+}
+
 * html {
   height: 100vh;
 }
 
-body {
-  background-color: aliceblue;
+header {
+  margin-bottom: -1vh;
 }
 
 header img {
@@ -32,7 +31,8 @@ h1, h2 {
 }
 
 nav {
-  border: 0px 1px solid #000;
+  background-color: #795548;
+  box-shadow: 1px 1px 5px #777777;
 }
 
 ul {
@@ -46,29 +46,28 @@ nav ul {
 }
 
 nav li {
-  margin: 1vw 5vh 2vw 5vh;
+  margin: 1vw 5vh 1vw 5vh;
 }
 
 nav a {
-  color: var(--greenModified);
   font-weight: 900;
 }
 
 article h1 {
   font-size: 3rem;
-  color: var(--blueModified);
 }
 
 article h2 {
   font-size: 2rem;
-  color: var(--blueModified)
 }
 
 article h3 {
   font-size: 1.5rem;
-  color: var(--greenModified)
 }
 
+article {
+  border-bottom: solid 1px #C0BEBE;
+}
 
 .blocos {
   margin-left: 2vw;
@@ -94,9 +93,9 @@ article h3 {
 }
 
 .activities ul {
+  box-shadow: 1px 1px 5px #777777;
   background-color: white;
   list-style: none;
-  box-shadow: 0px 5px 10px #aaaaaa;
   padding: 10px;
 }
 
@@ -110,7 +109,15 @@ article h3 {
 }
 
 .activities h3 {
-  color: var(--greenModified);
+
+}
+
+.blocos .treinos {
+  display: flex;
+}
+
+.media {
+  display: flex;
 }
 
 footer {

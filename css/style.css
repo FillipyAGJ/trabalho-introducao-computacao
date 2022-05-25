@@ -10,10 +10,6 @@ a {
   color: white;
 }
 
-* html {
-  height: 100vh;
-}
-
 header {
   margin-bottom: -1vh;
 }

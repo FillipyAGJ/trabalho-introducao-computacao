@@ -51,6 +51,7 @@ nav a {
 
 article h1 {
   font-size: 3rem;
+  margin: 25px 0;
 }
 
 article h2 {
@@ -63,24 +64,35 @@ article h3 {
 
 article {
   border-bottom: solid 1px #C0BEBE;
+  padding-bottom: 30px; 
 }
 
 .blocos {
+  margin: 20px 0;
   margin-left: 2vw;
 }
 
 .blocos h1{
   text-align: center;
+  margin: 20px 0;
+}
+
+.blocos h2{
+  margin: 20px 0;
 }
 
 .blocos p {
   text-align: justify;
 }
 
+.modalidades h2 + p {
+  margin-bottom: 30px;
+}
+
 .activities {
   display: flex;
   justify-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 5vh;
 }
 
@@ -89,7 +101,8 @@ article {
 }
 
 .activities ul {
-  box-shadow: 1px 1px 5px #777777;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
   background-color: white;
   list-style: none;
   padding: 10px;
@@ -108,12 +121,29 @@ article {
 
 }
 
-.blocos .treinos {
+.text-with-media {
   display: flex;
 }
 
-.media {
+.media { 
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social {
+  display: flex;
+  align-items: center
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.contato img {
+  margin: 0 15px;
 }
 
 footer {
